@@ -115,13 +115,4 @@ run
 log/
 summary/
 data/
-plot/
-experiments_gauss/
-experiments_fisher/
-experiments_old2/
-experiments_iclr/
 experiments/
-results/
-old_configs/
-old_configs2/
-configs/
