@@ -1,0 +1,23 @@
+{
+  "exp_name": "mb128_lr3e4_bn_aug",
+  "dataset": "cifar100",
+  "optimizer": "adam",
+  "model_name": "resnet32",
+  "use_kfac": false,
+  "roger_init": false,
+  "data_aug": true,
+  "batch_norm": true,
+  "use_bias": true,
+  "use_fisher": false,
+  "epoch": 200,
+  "decay_every_itr": 23460,
+  "batch_size": 128,
+  "test_batch_size": 1000,
+  "max_to_keep": 5,
+  "num_workers": 2,
+  "learning_rate": 0.0003,
+  "momentum": 0.9,
+  "weight_decay_type": "wd",
+  "weight_decay": 0.0,
+  "weight_list": "all"
+}
