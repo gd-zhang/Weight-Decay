@@ -1,17 +1,13 @@
 {
-    "comment": "sgd-bn-aug-bias", 
     "dataset": "cifar10", 
     "use_bias": true, 
-    "cov_ema_decay": 0, 
     "use_kfac": false, 
     "exp_name": "sgd_mb128_lr1e2_m9_wd0_l2_bias_BN_dataaugsgd-bn-aug-bias", 
     "test_batch_size": 1000, 
     "epoch": 200, 
-    "damping": 0, 
     "momentum": 0.9, 
     "optimizer": "sgd", 
     "num_workers": 2, 
-    "_APPROX": "kron", 
     "learning_rate": 0.01, 
     "batch_size": 128, 
     "decay_every_itr": 23500, 
@@ -22,5 +18,6 @@
     "max_to_keep": 5, 
     "weight_decay": 0, 
     "model_name": "vgg16", 
-    "batch_norm": true
+    "batch_norm": true,
+    "weight_list": "all"
 }

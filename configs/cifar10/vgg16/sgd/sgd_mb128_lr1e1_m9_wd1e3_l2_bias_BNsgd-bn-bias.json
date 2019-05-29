@@ -1,16 +1,12 @@
 {
     "max_to_keep": 5,
     "exp_name": "sgd_mb128_lr1e1_m9_wd1e3_l2_bias_BNsgd-bn-bias",
-    "cov_ema_decay": 0,
     "momentum": 0.9,
     "learning_rate": 0.1,
     "batch_norm": true,
     "data_aug": false,
-    "gn_weight": 0,
     "model_name": "vgg16",
     "weight_decay": 0.001,
-    "comment": "sgd-bn-bias",
-    "damping": 0,
     "dataset": "cifar10",
     "test_batch_size": 1000,
     "weight_decay_type": "l2",
@@ -22,5 +18,6 @@
     "batch_size": 128,
     "_APPROX": "kron",
     "roger_init": false,
-    "decay_every_itr": 23500
+    "decay_every_itr": 23500,
+    "weight_list": "all"
 }

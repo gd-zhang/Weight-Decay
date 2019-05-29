@@ -1,8 +1,6 @@
 {
     "weight_decay": 0.0003,
-    "damping": 0,
     "weight_decay_type": "l2",
-    "_APPROX": "kron",
     "roger_init": false,
     "decay_every_itr": 23500,
     "optimizer": "sgd",
@@ -19,8 +17,7 @@
     "batch_size": 128,
     "use_bias": true,
     "epoch": 200,
-    "comment": "sgd-bias",
     "model_name": "vgg16",
-    "gn_weight": 0,
-    "dataset": "cifar10"
+    "dataset": "cifar10",
+    "weight_list": "all"
 }

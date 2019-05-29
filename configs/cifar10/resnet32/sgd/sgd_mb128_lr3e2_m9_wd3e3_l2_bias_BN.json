@@ -1,5 +1,4 @@
 {
-    "_APPROX": "kron",
     "model_name": "resnet32",
     "dataset": "cifar10",
     "batch_size": 128,
@@ -15,13 +14,10 @@
     "weight_decay_type": "l2",
     "batch_norm": true,
     "test_batch_size": 1000,
-    "cov_ema_decay": 0,
     "max_to_keep": 5,
-    "comment": "",
+    "weight_list": "all",
     "weight_decay": 0.003,
     "num_workers": 2,
     "optimizer": "sgd",
-    "gn_weight": 0,
-    "damping": 0,
     "exp_name": "sgd_mb128_lr3e2_m9_wd3e3_l2_bias_BN"
 }
