@@ -19,7 +19,7 @@ To cite this work, please use
 
 # Requirements
 This project uses Python 3.5.2. Before running the code, you have to install
-* [Tensorflow 1.4+](https://www.tensorflow.org/)
+* [Tensorflow 1.4](https://www.tensorflow.org/)
 * [PyTorch](http://pytorch.org/)
 * [Numpy](http://www.numpy.org/)
 * [tqdm](https://pypi.python.org/pypi/tqdm)
