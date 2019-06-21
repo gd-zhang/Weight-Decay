@@ -59,7 +59,6 @@ class KFACOptimizer(gradient_descent.GradientDescentOptimizer):
 
         self._momentum = momentum
         self._momentum_type = momentum_type
-        self._warmup_step = ops.convert_to_tensor(warmup_step)
         self._weight_decay = weight_decay
         self._weight_decay_type = weight_decay_type
         self._weight_list = weight_list

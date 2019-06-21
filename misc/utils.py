@@ -143,7 +143,7 @@ def conv2d(inputs, kernel_size, out_channels, is_training, name,
         name=name)
     preactivations = layer(inputs)
     if batch_norm:
-        bn = tf.layers.batch_normalization(preactivations, training=is_training, trainable=False)
+        bn = tf.layers.batch_normalization(preactivations, training=is_training, center=False, scale=False)
         activations = activation_fn(bn)
     else:
         activations = activation_fn(preactivations)
@@ -165,7 +165,7 @@ def dense(inputs, output_size, is_training, name, batch_norm=False,
         name=name)
     preactivations = layer(inputs)
     if batch_norm:
-        bn = tf.layers.batch_normalization(preactivations, training=is_training, trainable=False)
+        bn = tf.layers.batch_normalization(preactivations, training=is_training, center=False, scale=False)
         activations = activation_fn(bn)
     else:
         activations = activation_fn(preactivations)
