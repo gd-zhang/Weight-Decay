@@ -31,6 +31,8 @@ This project uses Python 3.5.2. Before running the code, you have to install
 $ python main.py --config configs/cifar100/resnet32/kfac/mb128_lr5e2_damp1e3_cov95_bn_aug.json
 ```
 
+# Credit
+This repo uses a modified version of [Tensorflow K-FAC](https://github.com/tensorflow/kfac).
 
 # Contact
 If you have any questions or suggestions about the code or paper, please do not hesitate to contact with Guodong Zhang(`gdzhang.cs@gmail.com` or `gdzhang@cs.toronto.edu`) and Chaoqi Wang(`alecwangcq@gmail.com` or `cqwang@cs.toronto.edu`).
